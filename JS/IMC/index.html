@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" href="./css/material.css">
+
+		<title>IMC</title>
+	</head>
+	<body>
+
+		<form class="center">
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label  ">
+			    <input class="mdl-textfield__input" type="text" id="kilos" pattern="-?[0-9]*(\.[0-9]+)?">
+			    <label class="mdl-textfield__label" for="kilos">Kilos</label>
+  			</div>
+
+  			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label ">
+			    <input class="mdl-textfield__input" type="text" id="metros" pattern="-?[0-9]*(\.[0-9]+)?">
+			    <label class="mdl-textfield__label" for="metros">Metros</label>
+  			</div>
+
+  			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label ">
+			    <input class="mdl-textfield__input" type="text" id="imc" disabled>
+			    <label class="mdl-textfield__label" for="imc">IMC</label>
+  			</div>
+
+  			<button class="mdl-button mdl-js-button mdl-button--primary center">Calcular IMC</button>
+  		</form>
+
+
+		<script src="./js/material.js"></script>
+		<script src="./js/main.js"></script>
+
+	</body>
+
+</html>
