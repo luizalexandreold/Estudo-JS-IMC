@@ -34,3 +34,14 @@ body{
   color: #FFF !important;
   border-color: #FFF !important;
 }
+
+.botao{
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+}
+
+#imc{
+  color: #FFF;
+  font-size: 18px;
+}
