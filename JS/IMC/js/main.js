@@ -1,4 +1,4 @@
-function contaIMC() {	
+function contaIMC() {
 	var formulario = document.getElementById("formulario");
 	var kilos = Number(formulario.kilos.value);
 	var altura = Number(formulario.metros.value);
@@ -16,6 +16,7 @@ function contaIMC() {
 	}
 }
 
+
 function saida(impresao){
 	document.getElementById("imc").innerHTML = impresao;
 }
@@ -25,7 +26,7 @@ function calcularIMC(kilos, altura){
 }
 
 function calcularNivelPeso(imc){
-	var resultado;	
+	var resultado;
 	if(imc < 20)
 		resultado = "Abaixo do peso";
 	else if(imc >= 20 && imc < 25)
